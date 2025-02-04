@@ -2,6 +2,18 @@
 
 ## `FUNCTIONALITY`
 
+```diff
+
+! Warn
+
+- Error
+
++ Info
+
+# Disabled
+
+```
+
 ## `Requirements`
 
 - [x] Login and users' validation.
