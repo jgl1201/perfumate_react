@@ -1,4 +1,4 @@
-Perfumes' storewith REACT.
+# Perfume Store with REACT.
 
 ## `FUNCTIONALITY`
 
@@ -6,25 +6,25 @@ Perfumes' storewith REACT.
 
 - [x] Login and users' validation.
 
-  > Managed in json.
+  > Managed using JSON.
   >
-  > Admin and client users.
+  > Includes `admin` and `client` users.
 
-- [x] Choose a particular theme and visualize an online catalog with products and their description.
+- [x] Choose a specific theme and view an online catalog with products and their description.
 
 - [x] Implement a shopping cart
 
 - [x] Include images.
 
-- [x] Existence of a form where users can register.
+- [x] Provide a registration form for users.
 
-  > Save the data and make it persistent on the app (json).
+  > User data should be stored and persist within the app (JSON).
 
 - [x] Use of components to implement the app's different sections.
 
-- [x] Use of Hooks (useEffect, useState, useContext).
+- [x] Utilize Hooks (`useEffect`, `useState`, `useContext`).
 
-  > Their use must be justified.
+  > Their usage must be justified.
 
 ## `Dependencies`
 
@@ -41,7 +41,7 @@ npm install react-router-dom
 
     ├── public/
 
-    │   ├── images/ (Aquí irán las imágenes de los productos)
+    │   ├── images/
 
     │   ├── index.html
 
@@ -68,7 +68,7 @@ npm install react-router-dom
 
 ## `Code`
 
-1. Importar `Bootstrap`, `Router` y los componentes en **App.js**
+1. Import `Bootstrap`, `Router` and the required components in **App.js**
 
     ```js
     import "bootstrap/dist/css/bootstrap.min.css";
@@ -76,7 +76,7 @@ npm install react-router-dom
     import { BrowserRouter as Router, Route, Routes, Link } from "react-router-dom";
     ```
 
-2. Definir, dentro de App.js, las rutas que va a tener la web. Por ejemplo: 
+2. Define, inside App.js, the routes we want for the app. For example: 
 
     ```js
 
